@@ -7,15 +7,31 @@
 //
 
 import UIKit
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
+    override init(){
+        FIRApp.configure()
+        FIRAuth.auth()?.signIn(withEmail: "esso@awesso.com", password: "Champion2013", completion: { (user, error) in
+            if error != nil{
+                print(error ?? "Erreur")
+                return
+            }
+            
+        })
+    }
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.makeKeyAndVisible()
+        window?.rootViewController = UINavigationController(rootViewController: RestaurantsViewController(collectionViewLayout: UICollectionViewFlowLayout()))
+        
         return true
     }
 

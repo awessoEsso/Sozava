@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>168160631607-cn0n5bb8isub7b177bbul0orij22ndq2.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.168160631607-cn0n5bb8isub7b177bbul0orij22ndq2</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBHQEEm96DW1TMPWTq_jSFd4A3QgIp8Es0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>168160631607</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.zorobabel.Sozava</string>
+	<key>PROJECT_ID</key>
+	<string>sozava-d7f40</string>
+	<key>STORAGE_BUCKET</key>
+	<string>sozava-d7f40.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:168160631607:ios:9272b04df560160f</string>
+	<key>DATABASE_URL</key>
+	<string>https://sozava-d7f40.firebaseio.com</string>
+</dict>
+</plist>

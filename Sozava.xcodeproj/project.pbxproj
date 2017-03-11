@@ -7,21 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83FB1757E303E716DD99C3C2 /* Pods_Sozava.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B732806DBF869E973E816C /* Pods_Sozava.framework */; };
+		E090F2CD1E73FDC700784654 /* MenusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E090F2CC1E73FDC700784654 /* MenusViewController.swift */; };
+		E090F2CF1E74248700784654 /* CategoriesBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E090F2CE1E74248700784654 /* CategoriesBar.swift */; };
 		E0AC1AC51E6EF8B000D613AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AC1AC41E6EF8B000D613AE /* AppDelegate.swift */; };
-		E0AC1AC71E6EF8B000D613AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AC1AC61E6EF8B000D613AE /* ViewController.swift */; };
 		E0AC1ACA1E6EF8B000D613AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0AC1AC81E6EF8B000D613AE /* Main.storyboard */; };
 		E0AC1ACC1E6EF8B000D613AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0AC1ACB1E6EF8B000D613AE /* Assets.xcassets */; };
 		E0AC1ACF1E6EF8B000D613AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0AC1ACD1E6EF8B000D613AE /* LaunchScreen.storyboard */; };
+		E0AC1AD91E6EF8EE00D613AE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AC1AD61E6EF8EE00D613AE /* LoginViewController.swift */; };
+		E0AC1ADA1E6EF8EE00D613AE /* RestaurantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AC1AD71E6EF8EE00D613AE /* RestaurantCell.swift */; };
+		E0AC1ADB1E6EF8EE00D613AE /* RestaurantsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AC1AD81E6EF8EE00D613AE /* RestaurantsViewController.swift */; };
+		E0AC1ADD1E6EF8FE00D613AE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E0AC1ADC1E6EF8FE00D613AE /* GoogleService-Info.plist */; };
+		E0AC1ADF1E6EF91000D613AE /* ConnexionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AC1ADE1E6EF91000D613AE /* ConnexionViewController.swift */; };
+		E0AC1AE31E6F164900D613AE /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AC1AE21E6F164900D613AE /* Restaurant.swift */; };
+		E0AC1AE51E6F193800D613AE /* Specialite.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AC1AE41E6F193800D613AE /* Specialite.swift */; };
+		E0AC1AE71E6F198500D613AE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AC1AE61E6F198500D613AE /* User.swift */; };
+		E0AC1AE91E6F1AA800D613AE /* Quartier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AC1AE81E6F1AA800D613AE /* Quartier.swift */; };
+		E0AC1AEB1E6F1C1300D613AE /* Categorie.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AC1AEA1E6F1C1300D613AE /* Categorie.swift */; };
+		E0AC1AED1E6F1C7300D613AE /* Produit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AC1AEC1E6F1C7300D613AE /* Produit.swift */; };
+		E0AC1AF11E6F472F00D613AE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AC1AF01E6F472F00D613AE /* Extensions.swift */; };
+		E0AC1AF51E7064C100D613AE /* RestaurantTopImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AC1AF41E7064C100D613AE /* RestaurantTopImageCell.swift */; };
+		E0AC1AFD1E719F1500D613AE /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AC1AFC1E719F1500D613AE /* CategoryCell.swift */; };
+		E0AC1B031E71AC3800D613AE /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AC1B021E71AC3800D613AE /* MenuCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		53B732806DBF869E973E816C /* Pods_Sozava.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sozava.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C578D1DD581A10D28B5F65E /* Pods-Sozava.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sozava.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sozava/Pods-Sozava.release.xcconfig"; sourceTree = "<group>"; };
+		C522A7D87C2527978F2CB104 /* Pods-Sozava.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sozava.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sozava/Pods-Sozava.debug.xcconfig"; sourceTree = "<group>"; };
+		E090F2CC1E73FDC700784654 /* MenusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenusViewController.swift; sourceTree = "<group>"; };
+		E090F2CE1E74248700784654 /* CategoriesBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesBar.swift; sourceTree = "<group>"; };
 		E0AC1AC11E6EF8B000D613AE /* Sozava.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sozava.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0AC1AC41E6EF8B000D613AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E0AC1AC61E6EF8B000D613AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E0AC1AC91E6EF8B000D613AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E0AC1ACB1E6EF8B000D613AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0AC1ACE1E6EF8B000D613AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0AC1AD01E6EF8B000D613AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0AC1AD61E6EF8EE00D613AE /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E0AC1AD71E6EF8EE00D613AE /* RestaurantCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantCell.swift; sourceTree = "<group>"; };
+		E0AC1AD81E6EF8EE00D613AE /* RestaurantsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantsViewController.swift; sourceTree = "<group>"; };
+		E0AC1ADC1E6EF8FE00D613AE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E0AC1ADE1E6EF91000D613AE /* ConnexionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnexionViewController.swift; sourceTree = "<group>"; };
+		E0AC1AE21E6F164900D613AE /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		E0AC1AE41E6F193800D613AE /* Specialite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Specialite.swift; sourceTree = "<group>"; };
+		E0AC1AE61E6F198500D613AE /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E0AC1AE81E6F1AA800D613AE /* Quartier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quartier.swift; sourceTree = "<group>"; };
+		E0AC1AEA1E6F1C1300D613AE /* Categorie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Categorie.swift; sourceTree = "<group>"; };
+		E0AC1AEC1E6F1C7300D613AE /* Produit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Produit.swift; sourceTree = "<group>"; };
+		E0AC1AF01E6F472F00D613AE /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E0AC1AF41E7064C100D613AE /* RestaurantTopImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantTopImageCell.swift; sourceTree = "<group>"; };
+		E0AC1AFC1E719F1500D613AE /* CategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		E0AC1B021E71AC3800D613AE /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +65,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83FB1757E303E716DD99C3C2 /* Pods_Sozava.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0EED3F06D388FAC8FB14A414 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53B732806DBF869E973E816C /* Pods_Sozava.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E0AC1AB81E6EF8B000D613AE = {
 			isa = PBXGroup;
 			children = (
 				E0AC1AC31E6EF8B000D613AE /* Sozava */,
 				E0AC1AC21E6EF8B000D613AE /* Products */,
+				FE15D87225B5E58562ADD1E8 /* Pods */,
+				0EED3F06D388FAC8FB14A414 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +101,71 @@
 		E0AC1AC31E6EF8B000D613AE /* Sozava */ = {
 			isa = PBXGroup;
 			children = (
-				E0AC1AC41E6EF8B000D613AE /* AppDelegate.swift */,
-				E0AC1AC61E6EF8B000D613AE /* ViewController.swift */,
-				E0AC1AC81E6EF8B000D613AE /* Main.storyboard */,
+				E0AC1AEF1E6F46FF00D613AE /* Helpers */,
+				E0AC1AE11E6F157F00D613AE /* Model */,
+				E0AC1AE01E6F01C600D613AE /* Supporting Files */,
+				E0AC1AEE1E6F41E200D613AE /* View */,
+				E0AC1ADE1E6EF91000D613AE /* ConnexionViewController.swift */,
+				E0AC1AD61E6EF8EE00D613AE /* LoginViewController.swift */,
+				E0AC1AD81E6EF8EE00D613AE /* RestaurantsViewController.swift */,
+				E090F2CC1E73FDC700784654 /* MenusViewController.swift */,
 				E0AC1ACB1E6EF8B000D613AE /* Assets.xcassets */,
-				E0AC1ACD1E6EF8B000D613AE /* LaunchScreen.storyboard */,
-				E0AC1AD01E6EF8B000D613AE /* Info.plist */,
 			);
 			path = Sozava;
+			sourceTree = "<group>";
+		};
+		E0AC1AE01E6F01C600D613AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0AC1AC41E6EF8B000D613AE /* AppDelegate.swift */,
+				E0AC1AC81E6EF8B000D613AE /* Main.storyboard */,
+				E0AC1ACD1E6EF8B000D613AE /* LaunchScreen.storyboard */,
+				E0AC1AD01E6EF8B000D613AE /* Info.plist */,
+				E0AC1ADC1E6EF8FE00D613AE /* GoogleService-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E0AC1AE11E6F157F00D613AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E0AC1AE21E6F164900D613AE /* Restaurant.swift */,
+				E0AC1AE41E6F193800D613AE /* Specialite.swift */,
+				E0AC1AE61E6F198500D613AE /* User.swift */,
+				E0AC1AE81E6F1AA800D613AE /* Quartier.swift */,
+				E0AC1AEA1E6F1C1300D613AE /* Categorie.swift */,
+				E0AC1AEC1E6F1C7300D613AE /* Produit.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E0AC1AEE1E6F41E200D613AE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E0AC1AD71E6EF8EE00D613AE /* RestaurantCell.swift */,
+				E0AC1AF41E7064C100D613AE /* RestaurantTopImageCell.swift */,
+				E0AC1AFC1E719F1500D613AE /* CategoryCell.swift */,
+				E0AC1B021E71AC3800D613AE /* MenuCell.swift */,
+				E090F2CE1E74248700784654 /* CategoriesBar.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E0AC1AEF1E6F46FF00D613AE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E0AC1AF01E6F472F00D613AE /* Extensions.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		FE15D87225B5E58562ADD1E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C522A7D87C2527978F2CB104 /* Pods-Sozava.debug.xcconfig */,
+				8C578D1DD581A10D28B5F65E /* Pods-Sozava.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0AC1AD31E6EF8B000D613AE /* Build configuration list for PBXNativeTarget "Sozava" */;
 			buildPhases = (
+				646C68D0E45838EAB43DF197 /* [CP] Check Pods Manifest.lock */,
 				E0AC1ABD1E6EF8B000D613AE /* Sources */,
 				E0AC1ABE1E6EF8B000D613AE /* Frameworks */,
 				E0AC1ABF1E6EF8B000D613AE /* Resources */,
+				EB061EFBA5E6F126F1B55719 /* [CP] Embed Pods Frameworks */,
+				177390550489661FE63CCA4E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0AC1ACF1E6EF8B000D613AE /* LaunchScreen.storyboard in Resources */,
+				E0AC1ADD1E6EF8FE00D613AE /* GoogleService-Info.plist in Resources */,
 				E0AC1ACC1E6EF8B000D613AE /* Assets.xcassets in Resources */,
 				E0AC1ACA1E6EF8B000D613AE /* Main.storyboard in Resources */,
 			);
@@ -132,12 +240,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		177390550489661FE63CCA4E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sozava/Pods-Sozava-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		646C68D0E45838EAB43DF197 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EB061EFBA5E6F126F1B55719 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sozava/Pods-Sozava-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E0AC1ABD1E6EF8B000D613AE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0AC1AC71E6EF8B000D613AE /* ViewController.swift in Sources */,
+				E0AC1ADF1E6EF91000D613AE /* ConnexionViewController.swift in Sources */,
+				E0AC1ADB1E6EF8EE00D613AE /* RestaurantsViewController.swift in Sources */,
+				E0AC1B031E71AC3800D613AE /* MenuCell.swift in Sources */,
+				E0AC1AF51E7064C100D613AE /* RestaurantTopImageCell.swift in Sources */,
+				E0AC1AEB1E6F1C1300D613AE /* Categorie.swift in Sources */,
+				E090F2CD1E73FDC700784654 /* MenusViewController.swift in Sources */,
+				E0AC1AFD1E719F1500D613AE /* CategoryCell.swift in Sources */,
+				E0AC1AD91E6EF8EE00D613AE /* LoginViewController.swift in Sources */,
+				E0AC1AE31E6F164900D613AE /* Restaurant.swift in Sources */,
+				E0AC1AE71E6F198500D613AE /* User.swift in Sources */,
+				E0AC1AED1E6F1C7300D613AE /* Produit.swift in Sources */,
+				E0AC1AF11E6F472F00D613AE /* Extensions.swift in Sources */,
+				E0AC1AE91E6F1AA800D613AE /* Quartier.swift in Sources */,
+				E090F2CF1E74248700784654 /* CategoriesBar.swift in Sources */,
+				E0AC1ADA1E6EF8EE00D613AE /* RestaurantCell.swift in Sources */,
+				E0AC1AE51E6F193800D613AE /* Specialite.swift in Sources */,
 				E0AC1AC51E6EF8B000D613AE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +430,7 @@
 		};
 		E0AC1AD41E6EF8B000D613AE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C522A7D87C2527978F2CB104 /* Pods-Sozava.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9T5D737237;
@@ -272,6 +444,7 @@
 		};
 		E0AC1AD51E6EF8B000D613AE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C578D1DD581A10D28B5F65E /* Pods-Sozava.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9T5D737237;
@@ -302,6 +475,7 @@
 				E0AC1AD51E6EF8B000D613AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
