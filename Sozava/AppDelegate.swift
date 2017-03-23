@@ -32,6 +32,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.makeKeyAndVisible()
         window?.rootViewController = UINavigationController(rootViewController: RestaurantsViewController(collectionViewLayout: UICollectionViewFlowLayout()))
         
+        //application.statusBarStyle = .lightContent
+        
+        //window?.rootViewController = TestAnimationViewController()
+        
         return true
     }
 

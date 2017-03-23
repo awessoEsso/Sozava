@@ -10,15 +10,26 @@ import UIKit
 
 class CategoryCell: UICollectionViewCell {
     
+    var categorie = Categorie(){
+        didSet{
+            self.label.text = categorie.name
+        }
+    }
+    
+     var cellWidthAnchor: NSLayoutConstraint?
+    
+    
     let label: UILabel = {
         let l = UILabel()
-        l.text = "Plats"
+        l.text = "---"
         l.textColor = UIColor.black
+        l.backgroundColor = .white
         l.textAlignment = .center
         l.translatesAutoresizingMaskIntoConstraints = false
         return l
     }()
     
+        
 
     
     override init(frame: CGRect){
@@ -26,13 +37,20 @@ class CategoryCell: UICollectionViewCell {
         backgroundColor = UIColor.white
         addSubview(label)
         
+        
         //constraints
         
         label.leftAnchor.constraint(equalTo: self.leftAnchor).isActive = true
         label.widthAnchor.constraint(equalTo: self.widthAnchor).isActive = true
         label.topAnchor.constraint(equalTo: self.topAnchor).isActive = true
         label.heightAnchor.constraint(equalTo: self.heightAnchor).isActive = true
+        
+
+
+        
     }
+    
+    
     
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")

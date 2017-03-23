@@ -11,8 +11,9 @@ import Foundation
 class Produit: NSObject{
     var id: String?
     var name: String?
-    var categorie: Categorie?
+    var categorie: String?
     var desc: String?
-    var price: Int?
-    var restaurant: Restaurant?
+    var price: String?
+    var restaurant: String?
+    var imageUrl: String?
 }

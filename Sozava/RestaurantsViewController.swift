@@ -57,6 +57,7 @@ class RestaurantsViewController: UICollectionViewController, UICollectionViewDel
         restaurantsRef.observe(.childAdded, with: { (snapshot) in
             if let dictionary = snapshot.value as? [String: Any]{
                 let restaurant = Restaurant()
+                restaurant.id = snapshot.key
                 restaurant.setValuesForKeys(dictionary)
                 self.restaurantsList.append(restaurant)
             }
